@@ -46,7 +46,7 @@ public class GitDemo {
             revNumber = revNumber * 10 + temp;
             num /= 10;
         }
-        reverseNum = newNumber; // reverseNum becomes newNumber
+        reverseNum = revNumber; // reverseNum becomes revNumber
         
         return revNumber;
         
